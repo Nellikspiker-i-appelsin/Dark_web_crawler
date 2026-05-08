@@ -180,7 +180,7 @@ with Controller.from_port(port=9051) as controller:
                 link_count += 1
 
     except KeyboardInterrupt:
-        print("\\nInterrupted!")
+        print("\nInterrupted!")
     
     finally:
         # Summary of the session
